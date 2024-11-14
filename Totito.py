@@ -55,10 +55,10 @@ screen = pygame.display.set_mode((width, height + 100), 0, 32)
 pygame.display.set_caption("Totito")
 
 # loading the images as python object
-initiating_window = pygame.image.load("img/modified_cover.png")
-x_img = pygame.image.load("img/X_modified.png")
-o_img = pygame.image.load("img/o_modified.png")
-
+initiating_window = pygame.image.load("img/totito_cover.png")
+x_img = pygame.image.load("img/X.png")
+o_img = pygame.image.load("img/O.png")
+ 
 # resizing images
 initiating_window = pygame.transform.scale(initiating_window, (width, height + 100))
 x_img = pygame.transform.scale(x_img, (80, 80))
